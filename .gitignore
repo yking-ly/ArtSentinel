@@ -19,5 +19,4 @@ tmp/
 tmp_uploaded_image/
 
 # Models (optional if downloading at runtime)
-*.pt
-*.pth
+

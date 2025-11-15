@@ -65,7 +65,7 @@ class ArtModel:
             if env_path and Path(env_path).exists():
                 checkpoint_path = env_path
             else:
-                checkpoint_path = _auto_find_latest_model(Path(r"C:\ArtSentinel\models\runs"))
+                checkpoint_path = _auto_find_latest_model(Path(r"C:\ArtSentinel\backend\models"))
 
         self.checkpoint_path = checkpoint_path
 
